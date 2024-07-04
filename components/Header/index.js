@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,21 +14,21 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-white shadow-md border border-b-2">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <img className="h-12 w-12" src="/image.png" alt="Your Logo" />
-            </div>
-            <div className="hidden md:block">
-              <nav className="ml-10 flex items-baseline space-x-4">
-                <Link
-                  href="/"
-                  className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Home
-                </Link>
+          <div className="flex items-center w-4/5">
+            <Link href={"/"} className="flex-shrink-0">
+              {/* <img className="h-12 w-12" src="/image.png" alt="Your Logo" /> */}
+              <Image
+                src="/image.png"
+                alt="Green Carbon Solutions"
+                width={40}
+                height={40}
+              />
+            </Link>
+            <div className="hidden md:block flex justify-end w-full">
+              <nav className="ml-10 flex justify-end items-baseline space-x-4">
                 <Link
                   href="/carbon-credits"
                   className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
