@@ -13,6 +13,7 @@ const responsive = [
     title: "Explore the Carbon Credit Market",
     text: "Discover various carbon credit projects and invest in sustainable initiatives.",
     link: "/market",
+    linkName: "Go to market",
     imageUrl: "/bg1.png",
   },
   {
@@ -20,6 +21,7 @@ const responsive = [
     title: "Contact Us",
     text: "Get in touch with our team for more information on carbon credits and sustainable investments.",
     link: "/contact",
+    linkName: "Contact Us",
     imageUrl: "/bg2.png",
   },
   {
@@ -27,6 +29,7 @@ const responsive = [
     title: "Work with Us",
     text: "Join our team and contribute to a greener future through carbon credit projects.",
     link: "/careers",
+    linkName: "Work with Us",
     imageUrl: "/bg3.png",
   },
 ];
@@ -69,7 +72,7 @@ const MainPageCarousel = () => {
               href={item.link}
               className="inline-block mt-2 bg-green-900 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors duration-300"
             >
-              Go To
+              {item.linkName}
             </Link>
           </div>
         </div>
