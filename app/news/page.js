@@ -28,7 +28,7 @@ const newsData = [
 
 const News = () => {
   return (
-    <div className="p-4 bg-white">
+    <div className="p-4 bg-white md:px-32">
       <h1 className="text-3xl font-bold mb-4">News</h1>
       <div className="space-y-4">
         {newsData.map((news) => (

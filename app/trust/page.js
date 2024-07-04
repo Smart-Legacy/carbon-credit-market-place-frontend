@@ -8,8 +8,8 @@ const Trust = () => {
         We Build Trust Through Transparency
       </h1>
 
-      <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+      <section className="mb-8 block md:flex align-middle">
+        <div className="w-full md:w-1/2 align-middle">
           <h2 className="text-2xl font-bold mb-2 w-full md:w-1/2">
             Transparency in the Voluntary Carbon Market
           </h2>
@@ -18,24 +18,24 @@ const Trust = () => {
             complex voluntary carbon market. Learn about our approach.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
       </section>
 
       <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -62,24 +62,24 @@ const Trust = () => {
             while longer-term emissions reduction efforts are also underway.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
       </section>
 
       <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -111,24 +111,24 @@ const Trust = () => {
             standards become available.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
       </section>
 
       <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -155,24 +155,24 @@ const Trust = () => {
             find resources to take climate action beyond carbon credits.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
       </section>
 
       <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -201,24 +201,24 @@ const Trust = () => {
             progress towards their climate goals.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
       </section>
 
       <section className="mb-8 block md:flex">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
@@ -248,12 +248,12 @@ const Trust = () => {
             world.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/bg1.png"
+            src="/image.png"
             alt="Transparency"
-            width={"330"}
-            height={"330"}
+            width={"200"}
+            height={"200"}
             style={{ objectFit: "cover" }}
           />
         </div>
