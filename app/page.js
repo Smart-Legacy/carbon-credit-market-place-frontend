@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CarbonCreditCard from "@/components/CarbonCard";
 import Header from "@/components/Header";
+import MainPageCarousel from "@/components/MainPageCarousel";
 
 export default function Home() {
   const projects = [
@@ -68,9 +69,10 @@ export default function Home() {
 
   return (
     <main>
-      <Header />
-      <div className="container mx-auto p-4">
-        <div className="flex flex-wrap -m-4">
+      {/* <Header /> */}
+      <div className="w-full">
+        <MainPageCarousel />
+        <div className="flex flex-wrap justify-center ">
           {projects.map((project, index) => (
             <CarbonCreditCard key={index} project={project} />
           ))}

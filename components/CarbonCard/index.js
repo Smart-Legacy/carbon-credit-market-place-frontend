@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CarbonCreditCard = ({ project }) => {
   return (
-    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg m-2 md:m-4 border border-gray-200 flex flex-col justify-between">
+    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg m-2 md:m-4 border border-gray-200 bg-white flex flex-col justify-between">
       <div>
         <div className="relative h-48 w-full">
           <Image
