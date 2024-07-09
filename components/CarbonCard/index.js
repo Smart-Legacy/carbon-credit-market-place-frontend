@@ -1,9 +1,20 @@
-// components/CarbonCreditCard.js
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const CarbonCreditCard = ({ project }) => {
+  const router = useRouter();
+
+  const handleCardClick = () => {
+    router.push(`/project/${project.id}`);
+  };
+
   return (
-    <div className="max-w-sm rounded-xl overflow-hidden shadow-lg m-2 md:m-4 border border-gray-200 bg-white flex flex-col justify-between">
+    <div
+      onClick={handleCardClick}
+      className="max-w-sm rounded-xl overflow-hidden shadow-lg m-2 md:m-4 border border-gray-200 bg-white flex flex-col justify-between hover:border-green-600 hover:shadow-2xl hover:cursor-pointer"
+    >
       <div>
         <div className="relative h-48 w-full">
           <Image
@@ -14,7 +25,9 @@ const CarbonCreditCard = ({ project }) => {
           />
         </div>
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">{project.title}</div>
+          <div className="font-bold text-xl text-green-800 mb-2 hover:underline hover:underline-offset-1">
+            {project.title}
+          </div>
           <p className="text-gray-700 text-base">
             {project.region} | {project.registry}
           </p>
