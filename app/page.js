@@ -6,6 +6,7 @@ import MainPageCarousel from "@/components/MainPageCarousel";
 export default function Home() {
   const projects = [
     {
+      id: 1,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Katingan Peatland Restoration and Conservation",
@@ -16,6 +17,7 @@ export default function Home() {
       price: "9.91",
     },
     {
+      id: 2,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Delta Blue Carbon - 1",
@@ -26,6 +28,7 @@ export default function Home() {
       price: "39",
     },
     {
+      id: 3,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Prairie Pothole Avoided Conversion of Grasslands and Shrublands",
@@ -36,6 +39,7 @@ export default function Home() {
       price: "23.92",
     },
     {
+      id: 4,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Katingan Peatland Restoration and Conservation",
@@ -46,6 +50,7 @@ export default function Home() {
       price: "9.91",
     },
     {
+      id: 5,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Delta Blue Carbon - 1",
@@ -56,6 +61,7 @@ export default function Home() {
       price: "39",
     },
     {
+      id: 6,
       imageUrl:
         "https://plus.unsplash.com/premium_photo-1664300792059-863ccfe55932?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your image path
       title: "Prairie Pothole Avoided Conversion of Grasslands and Shrublands",
