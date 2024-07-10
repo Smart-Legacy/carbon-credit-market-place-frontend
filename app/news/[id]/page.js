@@ -1,7 +1,3 @@
-"use client";
-
-import { useRouter } from "next/navigation";
-
 const newsData = [
   {
     id: 1,
@@ -30,9 +26,14 @@ const newsData = [
   },
 ];
 
+// This function provides the dynamic paths for static generation
+export async function generateStaticParams() {
+  return newsData.map((news) => ({
+    params: { id: news.id.toString() },
+  }));
+}
+
 const NewsDetail = ({ params }) => {
-  const router = useRouter();
-  //const { id } = router.query;
   const newsItem = newsData.find((news) => news.id === parseInt(params.id));
 
   if (!newsItem) {
@@ -40,7 +41,7 @@ const NewsDetail = ({ params }) => {
   }
 
   return (
-    <div className="p-4">
+    <div className="p-4 h-screen bg-white">
       <h1 className="text-3xl font-bold mb-4">{newsItem.title}</h1>
       <p className="text-gray-500">{newsItem.date}</p>
       <p className="mt-4">{newsItem.content}</p>
