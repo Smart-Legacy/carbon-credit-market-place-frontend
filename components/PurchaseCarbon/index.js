@@ -1,8 +1,11 @@
+"use client";
+
 import React, { useState } from "react";
 
 const PurchaseCarbon = ({ carbonPrice, providerName }) => {
   const [quantity, setQuantity] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [userStatus, setUserStatus] = useState(false);
 
   const handleQuantityChange = (e) => {
     const qty = parseInt(e.target.value, 10);
@@ -61,18 +64,30 @@ const PurchaseCarbon = ({ carbonPrice, providerName }) => {
             <div className="text-sm text-gray-500">USD {carbonPrice}/tCO2e</div>
           </div>
           <div className="mt-6 flex justify-between">
-            <button
-              className="bg-blue-500 w-1/3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              type="button"
-            >
-              Log In
-            </button>
-            <button
-              className="bg-white w-1/3 hover:bg-gray-100 text-blue-500 font-bold py-2 px-4 rounded border border-blue-500 focus:outline-none focus:shadow-outline"
-              type="button"
-            >
-              Sign Up
-            </button>
+            {userStatus == false ? (
+              <button
+                onClick={() => setUserStatus(true)}
+                className="bg-yellow-500 w-full hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                type="button"
+              >
+                Buy Carbon
+              </button>
+            ) : (
+              <div className="w-full flex justify-between">
+                <button
+                  className="bg-blue-500 w-1/3 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  type="button"
+                >
+                  Log In
+                </button>
+                <button
+                  className="bg-white w-1/3 hover:bg-gray-100 text-blue-500 font-bold py-2 px-4 rounded border border-blue-500 focus:outline-none focus:shadow-outline"
+                  type="button"
+                >
+                  Sign Up
+                </button>
+              </div>
+            )}
           </div>
         </div>
       </div>
