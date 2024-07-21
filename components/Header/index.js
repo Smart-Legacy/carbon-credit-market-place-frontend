@@ -129,54 +129,63 @@ const Header = () => {
       <div className={`md:hidden ${menuOpen ? "block" : "hidden"}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link
+            onClick={toggleMenu}
             href="/"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Home
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/carbon-credits"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Carbon Credits
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/emissions-factors-data"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Emissions Factors Data
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/trust"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Trust
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/about"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             About
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/contact-us"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Contact Us
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/news"
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             News
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/signup"
             className="bg-green-800 text-white block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:bg-green-600"
           >
             Sign Up
           </Link>
           <Link
+            onClick={toggleMenu}
             href="/login"
             className="border border-green-800 text-green-800 block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:border-green-600 hover:text-green-600"
           >
