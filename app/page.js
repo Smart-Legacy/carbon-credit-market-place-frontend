@@ -76,9 +76,9 @@ export default function Home() {
   return (
     <main>
       {/* <Header /> */}
-      <div className="w-full">
+      <div className="w-full bg-slate-100">
         <MainPageCarousel />
-        <div className="flex flex-wrap justify-center ">
+        <div className="flex flex-wrap justify-center bg-slate-100">
           {projects.map((project, index) => (
             <CarbonCreditCard key={index} project={project} />
           ))}

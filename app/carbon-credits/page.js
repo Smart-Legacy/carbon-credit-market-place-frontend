@@ -73,7 +73,7 @@ export default function CarbonCredits() {
   ];
 
   return (
-    <main className="bg-white">
+    <main className="bg-slate-100">
       {/* <Header /> */}
       <div className="flex items-center justify-center pt-4">
         <div className="w-full max-w-xs md:max-w-md">
