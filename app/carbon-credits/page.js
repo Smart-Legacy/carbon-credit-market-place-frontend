@@ -79,7 +79,7 @@ export default function CarbonCredits() {
         <div className="w-full max-w-xs md:max-w-md">
           <input
             type="text"
-            className="w-full px-4 py-2 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+            className="w-full px-4 py-2 border border-gray-300 rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent text-black"
             placeholder="Search..."
           />
         </div>

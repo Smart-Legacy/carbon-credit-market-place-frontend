@@ -24,7 +24,7 @@ const LoginPage = () => {
 
     setTimeout(() => {
       setNotification(null);
-      router.push("/");
+      router.push("/carbon-seller-page");
     }, 5000);
   };
 
@@ -50,7 +50,7 @@ const LoginPage = () => {
           Green Carbon Solutions
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12 bg-white">
+      <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12 bg-white text-black">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <form onSubmit={handleSubmit} className="w-full max-w-sm">
           <div className="mb-4">

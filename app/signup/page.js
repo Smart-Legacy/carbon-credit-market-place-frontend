@@ -20,7 +20,7 @@ const SignupPage = () => {
     setTimeout(() => {
       setNotification({ message: "Signup successful!", type: "success" });
       setLoading(false);
-      //   router.push("/");
+      router.push("/carbon-buyer-page");
     }, 2000);
 
     setTimeout(() => setNotification(null), 5000);
@@ -48,7 +48,7 @@ const SignupPage = () => {
           Green Carbon Solutions
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12 bg-white">
+      <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12 bg-white text-black">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <form onSubmit={handleSubmit} className="w-full max-w-sm">
           <div className="mb-4">
