@@ -24,7 +24,7 @@ const LoginPage = () => {
 
     setTimeout(() => {
       setNotification(null);
-      router.push("/carbon-seller-page");
+      router.push("/dashboard/carbon-seller-page");
     }, 5000);
   };
 
