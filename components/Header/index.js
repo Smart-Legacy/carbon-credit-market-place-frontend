@@ -4,14 +4,19 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import { useCarbonMarketplace } from "@/context/CarbonMarketplaceContext";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { user } = useCarbonMarketplace();
   const router = useRouter();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
+  // Header now reads user from context (reactive)
+  const username = user ? user.username : null;
 
   return (
     <header className="bg-white shadow-md border border-b-2">
@@ -70,18 +75,29 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <div className="hidden md:flex space-x-4">
-              <Link
-                href="/signup"
-                className="bg-green-800 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600"
-              >
-                Sign Up
-              </Link>
-              <Link
-                href="/login"
-                className="border border-green-800 text-green-800 px-3 py-2 rounded-md text-sm font-medium hover:border-green-600 hover:text-green-600"
-              >
-                Log In
-              </Link>
+              {username ? (
+                <Link
+                  href="/dashboard/carbon-buyer-page"
+                  className="bg-green-800 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600"
+                >
+                  Profile
+                </Link>
+              ) : (
+                <>
+                  <Link
+                    href="/signup"
+                    className="bg-green-800 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600"
+                  >
+                    Sign Up
+                  </Link>
+                  <Link
+                    href="/login"
+                    className="border border-green-800 text-green-800 px-3 py-2 rounded-md text-sm font-medium hover:border-green-600 hover:text-green-600"
+                  >
+                    Log In
+                  </Link>
+                </>
+              )}
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
@@ -177,20 +193,32 @@ const Header = () => {
           >
             News
           </Link>
-          <Link
-            onClick={toggleMenu}
-            href="/signup"
-            className="bg-green-800 text-white block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:bg-green-600"
-          >
-            Sign Up
-          </Link>
-          <Link
-            onClick={toggleMenu}
-            href="/login"
-            className="border border-green-800 text-green-800 block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:border-green-600 hover:text-green-600"
-          >
-            Log In
-          </Link>
+          {username ? (
+            <Link
+              onClick={toggleMenu}
+              href="/dashboard/carbon-buyer-page"
+              className="bg-green-800 text-white block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:bg-green-600"
+            >
+              Profile
+            </Link>
+          ) : (
+            <>
+              <Link
+                onClick={toggleMenu}
+                href="/signup"
+                className="bg-green-800 text-white block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:bg-green-600"
+              >
+                Sign Up
+              </Link>
+              <Link
+                onClick={toggleMenu}
+                href="/login"
+                className="border border-green-800 text-green-800 block w-full text-center px-3 py-2 rounded-md text-base font-medium hover:border-green-600 hover:text-green-600"
+              >
+                Log In
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </header>

@@ -1,18 +1,42 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
 
 const CarbonMarketplaceContext = createContext();
 
 export const CarbonMarketplaceProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
+  useEffect(() => {
+    // initialize user from localStorage if present
+    try {
+      const stored = localStorage.getItem("username");
+      if (stored) {
+        setUser({ username: stored });
+      }
+    } catch (err) {
+      // ignore
+    }
+  }, []);
+
   const signIn = (userData) => {
     setUser(userData);
+    try {
+      if (userData && userData.username) {
+        localStorage.setItem("username", userData.username);
+      }
+    } catch (err) {
+      // ignore
+    }
   };
 
   const signOut = () => {
     setUser(null);
+    try {
+      localStorage.removeItem("username");
+    } catch (err) {
+      // ignore
+    }
   };
 
   const addProject = (project) => {

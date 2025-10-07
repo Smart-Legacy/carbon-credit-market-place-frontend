@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useCarbonMarketplace } from "@/context/CarbonMarketplaceContext";
 
 const LoginPage = () => {
   const router = useRouter();
@@ -11,15 +12,29 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [notification, setNotification] = useState(null);
   const [loading, setLoading] = useState(false);
+  const { signIn } = useCarbonMarketplace();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle login logic here
+    // save test username in browser storage for testing
+    try {
+      localStorage.setItem("username", "test_profile");
+    } catch (err) {
+      // localStorage may be unavailable in some environments
+      console.warn("Unable to write username to localStorage", err);
+    }
     setLoading(true);
 
     setTimeout(() => {
       setNotification({ message: "Login successful!", type: "success" });
       setLoading(false);
+      // update context so header updates immediately
+      try {
+        signIn({ username: "test_profile" });
+      } catch (err) {
+        // ignore
+      }
     }, 2000);
 
     setTimeout(() => {
