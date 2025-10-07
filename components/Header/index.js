@@ -19,10 +19,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center w-4/5">
             <Link href={"/"} className="flex-shrink-0">
-              {/* <img className="h-12 w-12" src="/image.png" alt="Your Logo" /> */}
+              {/* <img className="h-12 w-12" src="/smart_legacy.png" alt="Your Logo" /> */}
               <Image
-                src="/image.png"
-                alt="Green Carbon Solutions"
+                src="/smart_legacy.png"
+                alt="Smart Legacys"
                 width={40}
                 height={40}
               />

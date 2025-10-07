@@ -5,7 +5,7 @@ import Link from "next/link";
 const newsData = [
   {
     id: 1,
-    title: "Green Carbon Solution Launches New Initiative",
+    title: "Smart Legacy Launches New Initiative",
     summary:
       "We are excited to announce our new initiative focused on expanding our carbon offset projects globally.",
     date: "2024-07-01",

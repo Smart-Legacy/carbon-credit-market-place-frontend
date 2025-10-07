@@ -1,7 +1,7 @@
 const newsData = [
   {
     id: 1,
-    title: "Green Carbon Solution Launches New Initiative",
+    title: "Smart Legacy Launches New Initiative",
     summary:
       "We are excited to announce our new initiative focused on expanding our carbon offset projects globally.",
     content: "Full content about the new initiative goes here...",

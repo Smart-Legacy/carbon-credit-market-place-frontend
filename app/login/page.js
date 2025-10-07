@@ -41,13 +41,13 @@ const LoginPage = () => {
       )}
       <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12">
         <Image
-          src="/image.png"
-          alt="Green Carbon Solutions Logo"
+          src="/smart_legacy.png"
+          alt="Smart Legacys Logo"
           width={150}
           height={150}
         />
         <h1 className="text-lg md:text-3xl font-bold mt-4 text-green-600 text-center">
-          Green Carbon Solutions
+          Smart Legacys
         </h1>
       </div>
       <div className="flex flex-col items-center justify-center lg:w-1/2 p-8 lg:p-12 bg-white text-black">

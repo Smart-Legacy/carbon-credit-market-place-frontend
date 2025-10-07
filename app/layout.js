@@ -6,7 +6,7 @@ import { CarbonMarketplaceProvider } from "@/context/CarbonMarketplaceContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Green Carbon Solution",
+  title: "Smart Legacy",
   description: "A Carbon Marketplace",
 };
 

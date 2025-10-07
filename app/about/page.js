@@ -4,16 +4,16 @@ const About = () => {
   return (
     <div className="p-4 md:px-32 bg-white text-black">
       <h1 className="text-3xl font-bold mb-4 text-center">
-        About Green Carbon Solution
+        About Smart Legacy
       </h1>
 
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-2 text-center">Our Mission</h2>
         <p>
-          At Green Carbon Solution, our mission is to combat climate change by
-          providing innovative carbon offset solutions. We strive to help
-          individuals and businesses reduce their carbon footprint and
-          contribute to a sustainable future.
+          At Smart Legacy, our mission is to combat climate change by providing
+          innovative carbon offset solutions. We strive to help individuals and
+          businesses reduce their carbon footprint and contribute to a
+          sustainable future.
         </p>
       </section>
 

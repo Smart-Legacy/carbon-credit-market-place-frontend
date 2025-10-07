@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-xl font-bold">Green Carbon Solutions</h3>
+            <h3 className="text-xl font-bold">Smart Legacy</h3>
             <p className="mt-2 text-sm">
               Ensuring sustainable forest management and conservation.
             </p>
@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-4 text-center">
           <p className="text-sm">
-            &copy; 2024 Green Carbon Solutions. All rights reserved.
+            &copy; 2024 Smart Legacys. All rights reserved.
           </p>
         </div>
       </div>

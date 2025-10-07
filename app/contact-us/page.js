@@ -49,9 +49,9 @@ const ContactUs = () => {
       <div className="md:w-1/2 p-4 bg-white rounded-xl">
         <h2 className="text-2xl font-bold mb-4">Help & Documentation</h2>
         <p className="text-gray-700 mb-4">
-          Welcome to Green Carbon Solutions help and documentation section.
-          Here, you&apos;ll find answers to frequently asked questions and
-          detailed guides on how to use our services.
+          Welcome to Smart Legacys help and documentation section. Here,
+          you&apos;ll find answers to frequently asked questions and detailed
+          guides on how to use our services.
         </p>
         <p className="text-gray-700 mb-4">
           If you need further assistance, please don&apos;t hesitate to reach

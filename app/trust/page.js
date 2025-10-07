@@ -14,13 +14,13 @@ const Trust = () => {
             Transparency in the Voluntary Carbon Market
           </h2>
           <p>
-            Green Carbon Solution is committed to bringing transparency to the
-            complex voluntary carbon market. Learn about our approach.
+            Smart Legacy is committed to bringing transparency to the complex
+            voluntary carbon market. Learn about our approach.
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -32,7 +32,7 @@ const Trust = () => {
       <section className="mb-8 block md:flex">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -64,7 +64,7 @@ const Trust = () => {
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -76,7 +76,7 @@ const Trust = () => {
       <section className="mb-8 block md:flex">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -113,7 +113,7 @@ const Trust = () => {
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -125,7 +125,7 @@ const Trust = () => {
       <section className="mb-8 block md:flex">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -149,15 +149,15 @@ const Trust = () => {
         <div className="w-full md:w-1/2">
           <h2 className="text-2xl font-bold mb-2">Open Marketplace</h2>
           <p>
-            Green Carbon Solution Marketplace is open to all to explore. Anyone
-            can come to the marketplace to browse carbon credit projects, see
-            detailed information and third-party ratings for most projects, plus
-            find resources to take climate action beyond carbon credits.
+            Smart Legacy Marketplace is open to all to explore. Anyone can come
+            to the marketplace to browse carbon credit projects, see detailed
+            information and third-party ratings for most projects, plus find
+            resources to take climate action beyond carbon credits.
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -169,7 +169,7 @@ const Trust = () => {
       <section className="mb-8 block md:flex">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -203,7 +203,7 @@ const Trust = () => {
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -215,7 +215,7 @@ const Trust = () => {
       <section className="mb-8 block md:flex">
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
@@ -242,15 +242,14 @@ const Trust = () => {
             Connecting with Ecopreneurs
           </h2>
           <p>
-            Green Carbon Solution Marketplace offers a seamless e-commerce
-            experience for organizations to find and purchase carbon credits
-            from innovative carbon projects developed by ecopreneurs around the
-            world.
+            Smart Legacy Marketplace offers a seamless e-commerce experience for
+            organizations to find and purchase carbon credits from innovative
+            carbon projects developed by ecopreneurs around the world.
           </p>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image
-            src="/image.png"
+            src="/smart_legacy.png"
             alt="Transparency"
             width={"200"}
             height={"200"}
