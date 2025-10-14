@@ -27,7 +27,7 @@ const Header = () => {
               {/* <img className="h-12 w-12" src="/smart_legacy.png" alt="Your Logo" /> */}
               <Image
                 src="/smart_legacy.png"
-                alt="Smart Legacys"
+                alt="Smart Legacy"
                 width={40}
                 height={40}
               />
@@ -77,7 +77,7 @@ const Header = () => {
             <div className="hidden md:flex space-x-4">
               {username ? (
                 <Link
-                  href="/dashboard/carbon-buyer-page"
+                  href="/dashboard/carbon-seller-page"
                   className="bg-green-800 text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-green-600"
                 >
                   Profile
