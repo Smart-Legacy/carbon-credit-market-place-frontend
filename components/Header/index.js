@@ -41,6 +41,12 @@ const Header = () => {
                   Carbon Credits
                 </Link>
                 <Link
+                  href="/clean-energies"
+                  className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Clean Energies
+                </Link>
+                <Link
                   href="/emissions-factors-data"
                   className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                 >
@@ -157,6 +163,13 @@ const Header = () => {
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Carbon Credits
+          </Link>
+          <Link
+            onClick={toggleMenu}
+            href="/clean-energies"
+            className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Clean Energies
           </Link>
           <Link
             onClick={toggleMenu}
