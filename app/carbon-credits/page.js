@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 export default function CarbonCredits() {
   const projects = [
     {
-      id: 1,
+      id: "p-forest-01",
       imageUrl:
         "https://th.bing.com/th/id/R.271bad34bd84bfe418422b6cbebdb86f?rik=A7LC%2fftNatpgXQ&pid=ImgRaw&r=0",
       title: "Harenna Forest",
@@ -16,7 +16,7 @@ export default function CarbonCredits() {
       price: "9.91",
     },
     {
-      id: 2,
+      id: "p-forest-02",
       imageUrl:
         "https://th.bing.com/th/id/R.4e048c3b4f81e58400066518b3128de8?rik=iKk2jq6C4L6smw&pid=ImgRaw&r=0",
       title: "Gura Ferda Forest",
@@ -27,7 +27,7 @@ export default function CarbonCredits() {
       price: "39",
     },
     {
-      id: 3,
+      id: "p-forest-03",
       imageUrl:
         "https://th.bing.com/th/id/R.e784de279e9a298627757eea2290becf?rik=pJgmTAYy9WnWWw&pid=ImgRaw&r=0",
       title: "Entoto National Park",
@@ -38,7 +38,7 @@ export default function CarbonCredits() {
       price: "23.92",
     },
     {
-      id: 4,
+      id: "p-forest-04",
       imageUrl:
         "https://th.bing.com/th/id/R.2467c1b4946182a2654f698b86645d82?rik=Sz%2bb3gHcmuUZ7A&pid=ImgRaw&r=0",
       title: "Nechisar National Park",
@@ -49,7 +49,7 @@ export default function CarbonCredits() {
       price: "9.91",
     },
     {
-      id: 5,
+      id: "p-forest-05",
       imageUrl:
         "https://th.bing.com/th/id/OIP.Bh4FJumqsk_OG1hWJGQkmQHaE7?rs=1&pid=ImgDetMain",
       title: "Yayu Biosphere Reserve",
@@ -60,7 +60,7 @@ export default function CarbonCredits() {
       price: "39",
     },
     {
-      id: 6,
+      id: "p-forest-06",
       imageUrl:
         "https://th.bing.com/th/id/OIP.mW14F3VcGagOR_0e4dGGBgHaEK?rs=1&pid=ImgDetMain",
       title: "Semien Mountain National Park",

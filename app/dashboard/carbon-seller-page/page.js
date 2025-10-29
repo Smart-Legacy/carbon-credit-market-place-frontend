@@ -8,25 +8,25 @@ import { useCarbonMarketplace } from "@/context/CarbonMarketplaceContext";
 const sampleItems = [
   {
     id: "1",
-    title: "Mangrove Restoration Project",
+    title: "Harenna Forest",
     description:
       "Verified mangrove planting project sequestering carbon in coastal wetlands.",
     credits: 1200,
     quantity: 50,
     vintage: 2023,
-    location: "Kenya",
+    location: "Ethiopia / Sothern Sopes of Bale Mountain",
     verification: "VCS",
     imageUrl: "/bg1.png",
   },
   {
     id: "2",
-    title: "Agroforestry Carbon Benefit",
+    title: "Gura Ferda Forest",
     description:
       "Smallholder agroforestry project improving soil carbon stocks.",
     credits: 800,
     quantity: 30,
     vintage: 2022,
-    location: "Uganda",
+    location: "Ethiopia /  Near the South Sudanese border",
     verification: "Gold Standard",
     imageUrl: "/bg2.png",
   },
