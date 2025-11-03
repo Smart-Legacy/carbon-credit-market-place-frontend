@@ -71,6 +71,12 @@ const Header = () => {
                   Contact Us
                 </Link>
                 <Link
+                  href="/courses"
+                  className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Courses
+                </Link>
+                <Link
                   href="/news"
                   className="text-green-800 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium"
                 >
@@ -198,6 +204,13 @@ const Header = () => {
             className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
           >
             Contact Us
+          </Link>
+          <Link
+            onClick={toggleMenu}
+            href="/courses"
+            className="text-green-800 hover:text-green-600 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Courses
           </Link>
           <Link
             onClick={toggleMenu}
